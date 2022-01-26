@@ -1,0 +1,27 @@
+{
+    "pages": ["cpo"],
+    "columns": [
+        {
+            "searchIndex": "students",
+            "newIndexValue": "alunos",
+            "subColumns": {
+                "name": {
+                    "horizontal": false,
+                    "newIndexValue": "nome"
+                },
+                "room": {
+                    "horizontal": false,
+                    "newIndexValue": "sala"
+                },
+                "grade": {
+                    "horizontal": false,
+                    "newIndexValue": "nota"
+                }
+            }
+        },
+        {
+            "searchIndex": "holidays_days",
+            "newIndexValue": "diaDeFeriado"
+        }
+    ]
+}

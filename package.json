@@ -1,0 +1,42 @@
+{
+    "name": "spreadsheet-reader",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "pre-commit": "lint-staged",
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bretzke/blip-spreadsheet-reader.git"
+    },
+    "keywords": [
+        "spreadsheet",
+        "reader",
+        "xls",
+        "xlsx",
+        "json"
+    ],
+    "author": "Willian Bretzke",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bretzke/blip-spreadsheet-reader/issues"
+    },
+    "homepage": "https://github.com/bretzke/blip-spreadsheet-reader#readme",
+    "dependencies": {
+        "read-excel-file": "^5.2.26",
+        "xls-to-json": "^2.1.0",
+        "xlsx": "^0.17.4"
+    },
+    "devDependencies": {
+        "eslint": "^8.6.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "husky": "^7.0.4",
+        "lint-staged": "^12.1.7",
+        "prettier": "^2.5.1"
+    }
+}

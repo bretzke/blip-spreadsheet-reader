@@ -1,0 +1,18 @@
+*
+
+# /
+!.husky/*
+!.gitignore
+!AUTHORS.md
+!package.json
+!README.md
+!.*
+
+# src
+!src
+!src/config.json
+!src/index.js
+!src/services
+!src/services/*
+!src/utils/
+!src/utils/*
