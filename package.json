@@ -8,6 +8,12 @@
         "pre-commit": "lint-staged",
         "prepare": "husky install"
     },
+    "lint-staged": {
+        "*.js": [
+            "eslint --fix",
+            "prettier --write --ignore-unknown"
+        ]
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/bretzke/blip-spreadsheet-reader.git"
